@@ -49,9 +49,7 @@ function openSideNav() {
   $(".navBar").animate({ left: 0 }, 400);
   $(".toggler").removeClass("fa-align-justify");
   $(".toggler").addClass("fa-x");
-  for (let i = 0; i < 5; i++) {
-    $(" li").eq(i).css;
-  }
+  
   $(".links li").animate({ top: 0 }, 900);
 }
 
